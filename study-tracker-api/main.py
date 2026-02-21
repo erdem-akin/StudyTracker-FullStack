@@ -92,3 +92,4 @@ def delete_grade(grade_id: int, db: Session = Depends(get_db)):
     grade = db.query(Grade).filter(Grade.id == grade_id).first()
     if grade: db.delete(grade); db.commit()
     return {"message": "Not silindi"}
+# API logic initialized
