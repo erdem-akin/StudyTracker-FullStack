@@ -1,6 +1,6 @@
 # StudyTracker - Full Stack GPA Calculator
 
-StudyTracker is a web-based grade and GPA tracking application, specifically optimized for **Atlas University's** grading system. It is designed to handle university-specific grading edge cases, such as retaking failed courses (F/D) without duplicating credit weights in the CGPA, and calculating the minimum required score for final exams based on the institutional passing thresholds.
+StudyTracker is a web-based grade and GPA tracking application optimized for Atlas University’s grading system. It is designed to handle university-specific grading edge cases, such as retaking failed courses without duplicating credit weights and calculating the minimum required score for final exams based on institutional passing thresholds.
 
 ## Features
 * **Atlas University Integration:** Pre-configured with the university's specific letter grade coefficients and 40-point final exam barrier rule.
